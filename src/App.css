@@ -1,0 +1,71 @@
+.textareaInput {
+  border-radius: 5px;
+  border-color: #000000;
+  border-style: solid;
+  width: 75vw;
+}
+
+.sendButton {
+  width: 23vw;
+  background: transparent;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 50px);
+  width: auto;
+  height: 100vh;
+  background: aquamarine;
+}
+
+.header {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+.chatWindow {
+  grid-column: 1 / 4;
+  grid-row: 2;
+}
+
+.chatInputWrapper{
+  grid-column: 1 / 4;
+  align-self: flex-end;
+  white-space: nowrap;
+}
+
+.backButton {
+  background: transparent;
+  border: none;
+}
+
+.login-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 75px);
+  width: auto;
+  height: 100vh;
+  background: aquamarine;
+  justify-items: center;
+}
+
+.login-header {
+  grid-row: 1;
+}
+
+.login-form {
+  grid-row: 2;
+}
+
+.navbar {
+  height: 45px;
+  background-color: teal;
+  width: 100vw;
+  align-items: center;
+}
+
+
